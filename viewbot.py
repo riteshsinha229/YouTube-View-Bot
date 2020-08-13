@@ -83,11 +83,11 @@ def read_config(config_string):
     
 def write_defaults():
     with open('config.txt', 'w') as config:
-        config.write('search_string = Your Search Here\n')
-        config.write('min_watch = 10\n')
-        config.write('max_watch = 45\n')
+        config.write('search_string = ClickNView\n')
+        config.write('min_watch = 30\n')
+        config.write('max_watch = 300\n')
         config.write('wait_after = 15\n')
-        config.write('views = 100\n')
+        config.write('views = 5\n')
         config.write('multicore = False')
 
 write_defaults()
